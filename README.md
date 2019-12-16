@@ -55,7 +55,7 @@ curl https://XXXXXXX.execute-api.us-east-2.amazonaws.com/dev/lambdFunctions/<id>
 
 Example Result:
 
-{"text": "Learn Serverless ", "checked": false, "id": "e4b5c986-2054-11ea-992f-5ac6ea53ed15"}
+{"text": "Learn Serverless ", "checked": false, "id": "e4b5c986-2054-11ea-992f-5ac6ea53ed15"}%
 
 
 ### [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#delete-Entry)Delete an Entry
