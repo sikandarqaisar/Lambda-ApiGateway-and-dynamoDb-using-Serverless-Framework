@@ -59,8 +59,8 @@ Result:
 
 ### [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#get-one-todo)Get one Entry
 
-### Replace the <id> part with a real id from your dynamodb table
-curl https://XXXXXXX.execute-api.us-east-2.amazonaws.com/dev/lambdFunctions/<id>
+#### Replace the <id> part with a real id from your dynamodb table
+curl https://XXXXXXX.execute-api.us-east-2.amazonaws.com/dev/lambdFunctions/{id}
 
 Result:
 ```{"text": "Learn Serverless ", "checked": false, "id": "e4b5c986-2054-11ea-992f-5ac6ea53ed15"}```
@@ -68,8 +68,8 @@ Result:
 
 ### [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#delete-Entry)Delete an Entry
 
-### Replace the <id> part with a real id from your dynamodb table
-curl -X DELETE https://XXXXXXX.execute-api.us-east-2.amazonaws.com/dev/lambdFunctions/<id>
+#### Replace the <id> part with a real id from your dynamodb table
+curl -X DELETE https://XXXXXXX.execute-api.us-east-2.amazonaws.com/dev/lambdFunctions/{id}
 
 Result:
 `No Output`
