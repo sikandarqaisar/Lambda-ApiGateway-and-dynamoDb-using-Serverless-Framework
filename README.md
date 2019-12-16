@@ -20,7 +20,7 @@ This service has a separate directory for all the operations on dynamodb Table. 
 
 In order to deploy the code simply go to desired folder and run
 
-```serverless deploy```
+`serverless deploy`
 
 The expected result should be similar to:
 
