@@ -45,7 +45,7 @@ You can create, retrieve, or delete data with the following commands:
 
 curl -X POST https://XXXXXXX.execute-api.us-east-2.amazonaws.com/dev/lambdaFunction --data 'Learn Serverless'
 
-{"text": "Learn Serverless ", "checked": false, "id": "e4b5c986-2054-11ea-992f-5ac6ea53ed15"}
+```{"text": "Learn Serverless ", "checked": false, "id": "e4b5c986-2054-11ea-992f-5ac6ea53ed15"}```
 
 
 ### [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#get-one-todo)Get one Entry
@@ -55,10 +55,13 @@ curl https://XXXXXXX.execute-api.us-east-2.amazonaws.com/dev/lambdFunctions/<id>
 
 Example Result:
 
-{"text": "Learn Serverless ", "checked": false, "id": "e4b5c986-2054-11ea-992f-5ac6ea53ed15"}%
+```{"text": "Learn Serverless ", "checked": false, "id": "e4b5c986-2054-11ea-992f-5ac6ea53ed15"}```
 
 
 ### [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#delete-Entry)Delete an Entry
 
 # Replace the <id> part with a real id from your dynamodb table
 curl -X DELETE https://XXXXXXX.execute-api.us-east-2.amazonaws.com/dev/lambdFunctions/<id>
+
+Result:
+`No Output`
