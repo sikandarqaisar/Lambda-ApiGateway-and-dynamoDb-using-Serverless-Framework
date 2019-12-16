@@ -33,9 +33,9 @@ The expected result should be similar to:
   - GET - https://45wf34z5yf.execute-api.us-east-2.amazonaws.com/dev/lambdaFunction/{id}
   - DELETE - https://45wf34z5yf.execute-api.us-east-2.amazonaws.com/dev/lambdaFunction/{id}
 - functions:
-  - serverless-rest-api-with-dynamodb-dev-get: arn:aws:lambda:region:123456:function:serverless-rest-api-with-dynamodb-dev-get
-  - serverless-rest-api-with-dynamodb-dev-create: arn:aws:lambda:region:123456:function:serverless-rest-api-with-dynamodb-dev-create
-  - serverless-rest-api-with-dynamodb-dev-delete: arn:aws:lambda:resion:123456:function:serverless-rest-api-with-dynamodb-dev-delete
+  - serverless-rest-api-with-dynamodb-dev-get
+  - serverless-rest-api-with-dynamodb-dev-create
+  - serverless-rest-api-with-dynamodb-dev-delete
 
 ## [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#usage)Usage
 
