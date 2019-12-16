@@ -24,7 +24,7 @@ In order to deploy the code simply go to desired folder and run
 
 The expected result should be similar to:
 
-![Image description](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework/output.png)
+![Image description]https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework/blob/master/output.png)
 
 - endpoints:
   - POST - https://45wf34z5yf.execute-api.us-east-2.amazonaws.com/dev/lambdaFunction
