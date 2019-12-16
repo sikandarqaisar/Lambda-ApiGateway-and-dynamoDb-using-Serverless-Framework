@@ -12,6 +12,7 @@ This service has a separate directory for all the operations on dynamodb Table. 
 	- delete.py
 ## [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#setup) Installation Prerequisites
 - Pytnon3 
+- nvm 
 
 ## [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#setup)Setup
 
