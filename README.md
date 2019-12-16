@@ -1,5 +1,7 @@
 # Serverless for lambda with ApiGateway and dynamoDB
 ## Description
+This project goes into more depth by building a fully functional Serverless API that utilises DynamoDB. In this guide, we’ll build an Aws APIGateway that has the Get,Post and delete methods which trigger lambda function. Each Api method has its own lambda function which perform operations on DynamoDb table.
+
 ## Table of contents
 -   [Structure](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#structure)
 -   [Installation Prerequisites](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Installation-Prerequisites)
