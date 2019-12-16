@@ -52,7 +52,7 @@ functions:
 
 You can create, retrieve, or delete data with the following commands:
 
-### [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#create-a-todo)Create a Todo
+### [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#create-a-todo)Create an Entry
 
 curl -X POST https://XXXXXXX.execute-api.us-east-1.amazonaws.com/dev/lambdaFunction --data 'Learn Serverless'
 
@@ -68,7 +68,7 @@ Example Result:
 
 {"text":"Learn Serverless","id":"ee6490d0-aa11e6-9ede-afdfa051af86","createdAt":1479138570824,"checked":false,"updatedAt":1479138570824}%
 
-### [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#update-a-todo)Update a Todo
+### [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#update-a-todo)Update an Entry
 
 # Replace the <id> part with a real id from your Dynamodb table
 curl -X PUT https://XXXXXXX.execute-api.us-east-1.amazonaws.com/dev/lambdFunctions/<id> --data '{ "text": "Learn Serverless", "checked": true }'
@@ -77,7 +77,7 @@ Example Result:
 
 {"text":"Learn Serverless","id":"ee6490d0-aa11e6-9ede-afdfa051af86","createdAt":1479138570824,"checked":true,"updatedAt":1479138570824}%
 
-### [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#delete-Entry)Delete Entry
+### [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#delete-Entry)Delete an Entry
 
 # Replace the <id> part with a real id from your dynamodb table
 curl -X DELETE https://XXXXXXX.execute-api.us-east-1.amazonaws.com/dev/lambdFunctions/<id>
