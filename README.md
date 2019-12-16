@@ -2,9 +2,14 @@
 
 ## [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#structure)Structure
 
-This service has a separate directory for all the todo operations. For each operation exactly one file exists e.g.  `lambdFunctions/delete.py`. In each of these files there is exactly one function defined.
+This service has a separate directory for all the operations on dynamodb Table. For each operation exactly one file exists e.g.  `lambdFunctions/delete.py`. In each of these files there is exactly one function defined in lambdaFunctions directory.
 
-The idea behind the  `lambdFunctions`  directory is that in case you want to create a service containing multiple resources e.g. users, notes, comments you could do so in the same service. While this is certainly possible you might consider creating a separate service for each resource. It depends on the use-case and your preference.
+- serverless.yml
+-  .gitignore
+- lambdaFunctions
+	- create.py
+	- get.py
+	- delete.py
 
 
 ## [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#setup)Setup
