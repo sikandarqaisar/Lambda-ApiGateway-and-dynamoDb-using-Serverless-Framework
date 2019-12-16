@@ -1,4 +1,4 @@
-# Serverless for lambda and ApiGateway
+# Serverless for lambda with ApiGateway and dynamoDB
 
 ## [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#structure)Structure
 
