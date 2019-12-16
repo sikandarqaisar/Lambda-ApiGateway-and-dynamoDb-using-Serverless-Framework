@@ -20,33 +20,33 @@ This service has a separate directory for all the operations on dynamodb Table. 
 
 In order to deploy the code simply go to desired folder and run
 
-`serverless deploy`
+```serverless deploy```
 
 The expected result should be similar to:
 
-Serverless: Packaging service… 
-Serverless: Uploading CloudFormation file to S3…
-Serverless: Uploading service .zip file to S3…
-Serverless: Updating Stack…
-Serverless: Checking Stack update progress…
-Serverless: Stack update finished…
+-- Serverless: Packaging service… 
+-- Serverless: Uploading CloudFormation file to S3…
+-- Serverless: Uploading service .zip file to S3…
+-- Serverless: Updating Stack…
+-- Serverless: Checking Stack update progress…
+-- Serverless: Stack update finished…
 
-Service Information
-service: serverless-rest-api-with-dynamodb
-stage: dev
-region: us-east-2
-api keys:
-  None
-endpoints:
-  POST - https://45wf34z5yf.execute-api.us-east-1.amazonaws.com/dev/lambdaFunction
-  GET - https://45wf34z5yf.execute-api.us-east-1.amazonaws.com/dev/lambdaFunction
-  GET - https://45wf34z5yf.execute-api.us-east-1.amazonaws.com/dev/lambdaFunction/{id}
-  PUT - https://45wf34z5yf.execute-api.us-east-1.amazonaws.com/dev/lambdaFunction/{id}
-  DELETE - https://45wf34z5yf.execute-api.us-east-1.amazonaws.com/dev/lambdaFunction/{id}
-functions:
-  serverless-rest-api-with-dynamodb-dev-get: arn:aws:lambda:us-east-1:488110005556:function:serverless-rest-api-with-dynamodb-dev-get
-  serverless-rest-api-with-dynamodb-dev-create: arn:aws:lambda:us-east-1:488110005556:function:serverless-rest-api-with-dynamodb-dev-create
-  serverless-rest-api-with-dynamodb-dev-delete: arn:aws:lambda:us-east-1:488110005556:function:serverless-rest-api-with-dynamodb-dev-delete
+-- Service Information
+-- service: serverless-rest-api-with-dynamodb
+-- stage: dev
+-- region: us-east-2
+-- api keys:
+  -- None
+- endpoints:
+  - POST - https://45wf34z5yf.execute-api.us-east-1.amazonaws.com/dev/lambdaFunction
+  - GET - https://45wf34z5yf.execute-api.us-east-1.amazonaws.com/dev/lambdaFunction
+  - GET - https://45wf34z5yf.execute-api.us-east-1.amazonaws.com/dev/lambdaFunction/{id}
+  - PUT - https://45wf34z5yf.execute-api.us-east-1.amazonaws.com/dev/lambdaFunction/{id}
+  - DELETE - https://45wf34z5yf.execute-api.us-east-1.amazonaws.com/dev/lambdaFunction/{id}
+- functions:
+  - serverless-rest-api-with-dynamodb-dev-get: arn:aws:lambda:us-east-1:488110005556:function:serverless-rest-api-with-dynamodb-dev-get
+  - serverless-rest-api-with-dynamodb-dev-create: arn:aws:lambda:us-east-1:488110005556:function:serverless-rest-api-with-dynamodb-dev-create
+  - serverless-rest-api-with-dynamodb-dev-delete: arn:aws:lambda:us-east-1:488110005556:function:serverless-rest-api-with-dynamodb-dev-delete
 
 ## [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#usage)Usage
 
