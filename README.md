@@ -1,5 +1,16 @@
 # Serverless for lambda with ApiGateway and dynamoDB
 
+## Table of contents
+-   [Structure](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#structure)
+-   [Prerequisites](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Prerequisites)
+-   [Setup](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Setup)
+-   [Deploy](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Deploy)
+-   [Usage](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Usage)
+      - [Create Entry](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Create-an-Entry)
+      - [Get one Entry](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Get-one-Entry)
+      - [Delete Entry](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#delete-an-Entry)
+
+
 ## [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#structure)Structure
 
 This service has a separate directory for all the operations on dynamodb table. For each operation exactly one file exists e.g.  `lambdFunctions/delete.py`. In each of these files there is exactly one function defined in lambdaFunctions directory.
@@ -12,14 +23,6 @@ This service has a separate directory for all the operations on dynamodb table. 
 - serverless.yml
 -  .gitignore
 
-## Table of contents
--   [Prerequisites](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Prerequisites)
--   [Setup](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Setup)
--   [Deploy](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Deploy)
--   [Usage](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Usage)
-      - [Create Entry](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Create-an-Entry)
-      - [Get one Entry](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Get-one-Entry)
-      - [Delete Entry](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#delete-an-Entry)
       
 ## [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Prerequisites)Prerequisites
 - Pytnon3 
