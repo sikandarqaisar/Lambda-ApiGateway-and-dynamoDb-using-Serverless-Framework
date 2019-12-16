@@ -2,7 +2,7 @@
 
 ## [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#structure)Structure
 
-This service has a separate directory for all the operations on dynamodb Table. For each operation exactly one file exists e.g.  `lambdFunctions/delete.py`. In each of these files there is exactly one function defined in lambdaFunctions directory.
+This service has a separate directory for all the operations on dynamodb table. For each operation exactly one file exists e.g.  `lambdFunctions/delete.py`. In each of these files there is exactly one function defined in lambdaFunctions directory.
 
 - serverless.yml
 -  .gitignore
