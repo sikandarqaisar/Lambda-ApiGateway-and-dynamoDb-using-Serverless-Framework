@@ -45,6 +45,7 @@ You can create, retrieve, or delete data with the following commands:
 
 curl -X POST https://XXXXXXX.execute-api.us-east-2.amazonaws.com/dev/lambdaFunction --data 'Learn Serverless'
 
+Result:
 ```{"text": "Learn Serverless ", "checked": false, "id": "e4b5c986-2054-11ea-992f-5ac6ea53ed15"}```
 
 
@@ -53,8 +54,7 @@ curl -X POST https://XXXXXXX.execute-api.us-east-2.amazonaws.com/dev/lambdaFunct
 # Replace the <id> part with a real id from your Dynamodb table
 curl https://XXXXXXX.execute-api.us-east-2.amazonaws.com/dev/lambdFunctions/<id>
 
-Example Result:
-
+Result:
 ```{"text": "Learn Serverless ", "checked": false, "id": "e4b5c986-2054-11ea-992f-5ac6ea53ed15"}```
 
 
