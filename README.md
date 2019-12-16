@@ -16,6 +16,7 @@ This service has a separate directory for all the operations on dynamodb table. 
 -   [Prerequisites](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Prerequisites)
 -   [Setup](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Setup)
 -   [Deploy](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Deploy)
+-   [Usage](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Usage)
 
 ## [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Prerequisites)Prerequisites
 - Pytnon3 
@@ -58,7 +59,7 @@ Result:
 
 ### [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#get-one-todo)Get one Entry
 
-# Replace the <id> part with a real id from your Dynamodb table
+### Replace the <id> part with a real id from your dynamodb table
 curl https://XXXXXXX.execute-api.us-east-2.amazonaws.com/dev/lambdFunctions/<id>
 
 Result:
@@ -67,7 +68,7 @@ Result:
 
 ### [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#delete-Entry)Delete an Entry
 
-# Replace the <id> part with a real id from your dynamodb table
+### Replace the <id> part with a real id from your dynamodb table
 curl -X DELETE https://XXXXXXX.execute-api.us-east-2.amazonaws.com/dev/lambdFunctions/<id>
 
 Result:
