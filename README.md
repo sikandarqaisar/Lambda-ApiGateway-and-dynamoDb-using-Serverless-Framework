@@ -38,11 +38,11 @@ region: us-east-2
 api keys:
   None
 endpoints:
-  POST - https://45wf34z5yf.execute-api.us-east-1.amazonaws.com/dev/todos
-  GET - https://45wf34z5yf.execute-api.us-east-1.amazonaws.com/dev/todos
-  GET - https://45wf34z5yf.execute-api.us-east-1.amazonaws.com/dev/todos/{id}
-  PUT - https://45wf34z5yf.execute-api.us-east-1.amazonaws.com/dev/todos/{id}
-  DELETE - https://45wf34z5yf.execute-api.us-east-1.amazonaws.com/dev/todos/{id}
+  POST - https://45wf34z5yf.execute-api.us-east-1.amazonaws.com/dev/lambdaFunction
+  GET - https://45wf34z5yf.execute-api.us-east-1.amazonaws.com/dev/lambdaFunction
+  GET - https://45wf34z5yf.execute-api.us-east-1.amazonaws.com/dev/lambdaFunction/{id}
+  PUT - https://45wf34z5yf.execute-api.us-east-1.amazonaws.com/dev/lambdaFunction/{id}
+  DELETE - https://45wf34z5yf.execute-api.us-east-1.amazonaws.com/dev/lambdaFunction/{id}
 functions:
   serverless-rest-api-with-dynamodb-dev-get: arn:aws:lambda:us-east-1:488110005556:function:serverless-rest-api-with-dynamodb-dev-get
   serverless-rest-api-with-dynamodb-dev-create: arn:aws:lambda:us-east-1:488110005556:function:serverless-rest-api-with-dynamodb-dev-create
@@ -54,22 +54,15 @@ You can create, retrieve, or delete data with the following commands:
 
 ### [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#create-a-todo)Create a Todo
 
-curl -X POST https://XXXXXXX.execute-api.us-east-1.amazonaws.com/dev/todos --data 'Learn Serverless'
+curl -X POST https://XXXXXXX.execute-api.us-east-1.amazonaws.com/dev/lambdaFunction --data 'Learn Serverless'
 
 No output
 
-### [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#list-all-todos)List all Todos
 
-curl https://XXXXXXX.execute-api.us-east-1.amazonaws.com/dev/todos
-
-Example output:
-
-[{"text":"Deploy my first service","id":"ac90feaa11e6-9ede-afdfa051af86","checked":true,"updatedAt":1479139961304},{"text":"Learn Serverless","id":"206793aa11e6-9ede-afdfa051af86","createdAt":1479139943241,"checked":false,"updatedAt":1479139943241}]%
-
-### [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#get-one-todo)Get one Todo
+### [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#get-one-todo)Get one Entry
 
 # Replace the <id> part with a real id from your Dynamodb table
-curl https://XXXXXXX.execute-api.us-east-1.amazonaws.com/dev/todos/<id>
+curl https://XXXXXXX.execute-api.us-east-1.amazonaws.com/dev/lambdFunctions/<id>
 
 Example Result:
 
@@ -78,7 +71,7 @@ Example Result:
 ### [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#update-a-todo)Update a Todo
 
 # Replace the <id> part with a real id from your Dynamodb table
-curl -X PUT https://XXXXXXX.execute-api.us-east-1.amazonaws.com/dev/todos/<id> --data '{ "text": "Learn Serverless", "checked": true }'
+curl -X PUT https://XXXXXXX.execute-api.us-east-1.amazonaws.com/dev/lambdFunctions/<id> --data '{ "text": "Learn Serverless", "checked": true }'
 
 Example Result:
 
@@ -87,4 +80,4 @@ Example Result:
 ### [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#delete-Entry)Delete Entry
 
 # Replace the <id> part with a real id from your dynamodb table
-curl -X DELETE https://XXXXXXX.execute-api.us-east-1.amazonaws.com/dev/todos/<id>
+curl -X DELETE https://XXXXXXX.execute-api.us-east-1.amazonaws.com/dev/lambdFunctions/<id>
