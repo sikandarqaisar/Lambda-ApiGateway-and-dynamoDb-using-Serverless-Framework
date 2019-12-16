@@ -2,7 +2,7 @@
 
 ## Table of contents
 -   [Structure](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#structure)
--   [Prerequisites](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Prerequisites)
+-   [Installation Prerequisites](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Prerequisites)
 -   [Setup](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Setup)
 -   [Deploy](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Deploy)
 -   [Usage](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Usage)
@@ -24,7 +24,7 @@ This service has a separate directory for all the operations on dynamodb table. 
 -  .gitignore
 
       
-## [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Prerequisites)Prerequisites
+## [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Prerequisites)Installation Prerequisites
 - Pytnon3 
 - nvm 
 
