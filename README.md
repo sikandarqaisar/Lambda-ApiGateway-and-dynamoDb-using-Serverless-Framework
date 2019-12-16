@@ -17,6 +17,8 @@ This service has a separate directory for all the operations on dynamodb table. 
 -   [Setup](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Setup)
 -   [Deploy](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Deploy)
 -   [Usage](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Usage)
+--   [Create an Entry](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Create-an-Entry)
+
 
 ## [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Prerequisites)Prerequisites
 - Pytnon3 
@@ -49,7 +51,7 @@ The expected result should be similar to:
 
 You can create, retrieve, or delete data with the following commands:
 
-### [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#create-a-todo)Create an Entry
+### [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#create-an-Entry)Create an Entry
 
 curl -X POST https://XXXXXXX.execute-api.us-east-2.amazonaws.com/dev/lambdaFunction --data 'Learn Serverless'
 
