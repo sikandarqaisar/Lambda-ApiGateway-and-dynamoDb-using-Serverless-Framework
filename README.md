@@ -4,12 +4,14 @@
 
 This service has a separate directory for all the operations on dynamodb table. For each operation exactly one file exists e.g.  `lambdFunctions/delete.py`. In each of these files there is exactly one function defined in lambdaFunctions directory.
 
-- serverless.yml
--  .gitignore
+
 - lambdaFunctions
 	- create.py
 	- get.py
 	- delete.py
+- serverless.yml
+-  .gitignore
+
 ## [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#setup) Installation Prerequisites
 - Pytnon3 
 - nvm 
