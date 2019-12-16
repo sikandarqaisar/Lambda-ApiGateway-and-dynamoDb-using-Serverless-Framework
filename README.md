@@ -13,12 +13,11 @@ This service has a separate directory for all the operations on dynamodb table. 
 -  .gitignore
 
 ## Table of contents
--   [Installation Prerequisites](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Installation Prerequisites)
+-   [Prerequisites](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Prerequisites)
 -   [Setup](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Setup)
 -   [Deploy](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Deploy)
--    [Jenkins PipeLine](https://github.com/sikandarqaisar/Jenkins-CICD#create-it)
 
-## [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Installation Prerequisites) Installation Prerequisites
+## [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#Prerequisites)Prerequisites
 - Pytnon3 
 - nvm 
 
