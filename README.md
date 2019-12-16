@@ -55,16 +55,8 @@ curl https://XXXXXXX.execute-api.us-east-2.amazonaws.com/dev/lambdFunctions/<id>
 
 Example Result:
 
-{"text":"Learn Serverless","id":"ee6490d0-aa11e6-9ede-afdfa051af86","createdAt":1479138570824,"checked":false,"updatedAt":1479138570824}%
+{"text": "Learn Serverless ", "checked": false, "id": "e4b5c986-2054-11ea-992f-5ac6ea53ed15"}
 
-### [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#update-a-todo)Update an Entry
-
-# Replace the <id> part with a real id from your Dynamodb table
-curl -X PUT https://XXXXXXX.execute-api.us-east-2.amazonaws.com/dev/lambdFunctions/<id> --data '{ "text": "Learn Serverless", "checked": true }'
-
-Example Result:
-
-{"text":"Learn Serverless","id":"ee6490d0-aa11e6-9ede-afdfa051af86","createdAt":1479138570824,"checked":true,"updatedAt":1479138570824}%
 
 ### [](https://github.com/sikandarqaisar/Lambda-ApiGateway-and-dynamoDb-using-Serverless-Framework#delete-Entry)Delete an Entry
 
