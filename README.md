@@ -1,4 +1,4 @@
-# Serverless for lambda with ApiGateway and dynamoDB
+# Serverless for Lambda with ApiGateway and DynamoDB
 ## Description
 This project goes into more depth by building a fully functional Serverless API that utilises DynamoDB. In this guide, we’ll build an AWS ApiGateway that has  Get, Post and delete methods which trigger lambda function. Each Api method has its own lambda function which perform operations on DynamoDb table. Lambda function contains python code with boto3 library for dynamodb connectivity and operations.
 
